@@ -27,12 +27,15 @@ plt.show()
 
 Introducimos ademas varias gráficas que nos pueden ayudar a discernir los componentes ciclicos de la serie:
 
+#### Componente ciclico horario:
+
 ![Evolhora](https://github.com/sergerc/California_Electricity_Demand_Forecast/blob/main/Imagenes/horarioevol.png)
 
+#### Componente ciclico mensual:
 ![Evoldia](https://github.com/sergerc/California_Electricity_Demand_Forecast/blob/main/Imagenes/demanda_year.png)
 
-## MODELOS UTILIZADOS EN LA PREDICCIÓN:
 
+## MODELOS UTILIZADOS EN LA PREDICCIÓN:
 
 -  **Naive Estacional**:
 
