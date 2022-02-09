@@ -380,6 +380,15 @@ En este apartado separamos las evaluaciones de los modelos que hemos empleado en
 
 ***El mejor modelo de predicción para el conjunto de datos horario de la demanda eléctrica en california es el modelo AMAZON DEEP AR+.*** La implementación de este modelo supone un acierto esperado del 96,18% del consumo.
 
+## Trabajo realizado por: 
+
+:bust_in_silhouette: SERGIO RANZ CASADO.
+
+:mailbox: sergio.ranz@cunef.edu
+
+:link: https://www.linkedin.com/in/sergio-ranz-casado-3318b713a/
+
+
 ![byebye](https://www.fondos12.com/data/big/18/thats-all-folks-7172-1920x1200__wallpaper_480x300.jpg)
 
 
