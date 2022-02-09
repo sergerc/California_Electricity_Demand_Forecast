@@ -1,4 +1,4 @@
-:low_brightness: California Electricity Demand Forecast :high_brightness:
+:low_brightness: California Electricity Demand Forecast :high_brightness: :flag_ea:.
 ---
 
 ![Principal1](https://curiosfera-ciencia.com/wp-content/uploads/2021/02/que-es-la-electricidad-y-sus-caracteristicas.jpg)
