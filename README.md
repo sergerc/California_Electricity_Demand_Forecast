@@ -1,6 +1,6 @@
 :low_brightness: California Electricity Demand Forecast :high_brightness:
 ---
-
+<center>
 ![Principal](https://github.com/sergerc/California_Electricity_Demand_Forecast/blob/main/Imagenes/demanda_energetica.png)
 
 
