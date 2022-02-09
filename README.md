@@ -1,7 +1,7 @@
 :low_brightness: California Electricity Demand Forecast :high_brightness:
 ---
 
-![Principal](https://curiosfera-ciencia.com/wp-content/uploads/2021/02/que-es-la-electricidad-y-sus-caracteristicas.jpg)
+<center>![Principal](https://curiosfera-ciencia.com/wp-content/uploads/2021/02/que-es-la-electricidad-y-sus-caracteristicas.jpg)</center>
 
 
 Hola! :wave: , os traigo el trabajo final de la asignatura  de **series temporales y técnicas de predicción** en el que tenemos que realizar un análisis y una predicción del consumo de energía eléctrica en **California (EEUU)** tanto a nivel horario como diario. Para ello, utilizamos diferentes técnicas aprendidas en la asignatura.
@@ -343,6 +343,7 @@ plt.show()
 
 ![DEEPAR](https://github.com/sergerc/California_Electricity_Demand_Forecast/blob/main/Imagenes/AMAZONhorario.png)
 
+## EVALUACIÓN DE LAS PREDICCIONES:
 
 
 
