@@ -1,7 +1,7 @@
 :low_brightness: California Electricity Demand Forecast :high_brightness:
 ---
 
-![Principal](https://github.com/sergerc/California_Electricity_Demand_Forecast/blob/main/Imagenes/demanda_energetica.png)
+![Principal1](https://curiosfera-ciencia.com/wp-content/uploads/2021/02/que-es-la-electricidad-y-sus-caracteristicas.jpg)
 
 
 Hola! :wave: , os traigo el trabajo final de la asignatura  de **series temporales y técnicas de predicción** en el que tenemos que realizar un análisis y una predicción del consumo de energía eléctrica en **California (EEUU)** tanto a nivel horario como diario. Para ello, utilizamos diferentes técnicas aprendidas en la asignatura.
@@ -27,12 +27,15 @@ plt.show()
 
 Introducimos ademas varias gráficas que nos pueden ayudar a discernir los componentes ciclicos de la serie:
 
+#### Componente ciclico horario:
+
 ![Evolhora](https://github.com/sergerc/California_Electricity_Demand_Forecast/blob/main/Imagenes/horarioevol.png)
 
+#### Componente ciclico mensual:
 ![Evoldia](https://github.com/sergerc/California_Electricity_Demand_Forecast/blob/main/Imagenes/demanda_year.png)
 
-## MODELOS UTILIZADOS EN LA PREDICCIÓN:
 
+## MODELOS UTILIZADOS EN LA PREDICCIÓN:
 
 -  **Naive Estacional**:
 
@@ -343,14 +346,50 @@ plt.show()
 
 ![DEEPAR](https://github.com/sergerc/California_Electricity_Demand_Forecast/blob/main/Imagenes/AMAZONhorario.png)
 
+## EVALUACIÓN DE LAS PREDICCIONES:
+
+En este apartado separamos las evaluaciones de los modelos que hemos empleado en la predicción de los datos horarios de los diarios. Para realizar las comparaciones entre los diversos modelos implementados y evaluar su correspondiente ajuste a la serie temporal utilizamos los siguientes medidores:
+
+- ***R2 Score o El coeficiente de determinación***, determina la capacidad de un modelo para predecir futuros resultados. El mejor resultado posible es 1.0, y ocurre cuando la predicción coincide con los valores de la variable objetivo. R2 puede tomar valores negativos pues la predicción puede ser arbitrariamente mala. Cuando la predicción coincide con la esperanza de los valores de la variable objetivo, el resultado de R2 es 0. Se define como 1 menos la suma de cuadrados totales dividido por la suma de cuadrados de los residuos.
+- ***MAPE o Error Porcentual Absoluto Medio***, es un indicador del desempeño del Pronóstico de Demanda que mide el tamaño del error (absoluto) en términos porcentuales.
+- ***MAE o Error Absoluto Medio***, es el promedio de la diferencia absoluta entre el valor observado y los valores predichos. El error absoluto medio o MAE es un puntaje lineal, lo que significa que todas las diferencias individuales se ponderan por igual en el promedio.
+- ***RMSE o Error Cuadrático Medio***, representa a la raíz cuadrada de la distancia cuadrada promedio entre el valor real y el valor pronosticado. La diferencia con el MAE es que RMSE toma la diferencia de cada valor en vez del valor medio. 
+
+#### RESULTADOS PREDICCIONES DIARIAS:
+
+| MODELOS                      | R2 SCORE     | MAPE          | MAE(MHw/dia) | RMSE(MHw/dia) |
+|------------------------------|--------------|---------------|--------------|---------------|
+| *NAÏVE BAYES ESTACIONAL*     |  4.71%       |  3.82%        | 25.376,33    | 34.497,88     |
+| *MODELO ETS*                 | -23.22%      |  4.12%        | 27.819,05    | 39.230,29     |
+| *MODELO ARIMA*               |  27.22       |  3.47%        | 23.417,00    | 30.170,98     |
+| *FACEBOOK PROPHET*           |  32.08%      |  2.61%        | 17.245,52    | 29.124,81     |
+| *AMAZON DEEP AR+*            |  10.13%      |  3.77%        | 25.039,66    | 33.502,94     |
+
+#### RESULTADOS PREDICCIONES HORARIAS:
+
+| MODELOS                      | R2 SCORE     | MAPE          | MAE(MHw)     | RMSE(MHw)     |
+|------------------------------|--------------|---------------|--------------|---------------|
+| *NAÏVE BAYES ESTACIONAL*     |  55,04%      |  4,73%        | 1.302,69     | 2.016,67      |
+| *MODELO ETS*                 | -59,14%      |  11,45%       | 3.264,06     | 3.794,08      |
+| *FACEBOOK PROPHET*           |  37,39%      |  6,75%        | 1.863,33     | 2.379,77      |
+| *AMAZON DEEP AR+*            |  78,68%      |  3,82%        | 1.036,72     | 1.388,55      |
+
+## CONCLUSIONES: 
+
+***El mejor modelo de predicción para el conjunto de datos diario de la demanda eléctrica en california es el modelo FACEBOOK PROPHET.*** La implementación de este modelo supone un acierto esperado del 97,37% del consumo.
+
+***El mejor modelo de predicción para el conjunto de datos horario de la demanda eléctrica en california es el modelo AMAZON DEEP AR+.*** La implementación de este modelo supone un acierto esperado del 96,18% del consumo.
+
+## Trabajo realizado por: 
+
+:bust_in_silhouette: SERGIO RANZ CASADO.
+
+:mailbox: sergio.ranz@cunef.edu
+
+:link: https://www.linkedin.com/in/sergio-ranz-casado-3318b713a/
 
 
-
-
-
-
-
-
+![byebye](https://www.fondos12.com/data/big/18/thats-all-folks-7172-1920x1200__wallpaper_480x300.jpg)
 
 
 
